@@ -15,4 +15,8 @@ describe('getTheTitles', () => {
   test('gets titles', () => {
     expect(getTheTitles(books)).toEqual(['Book','Book2']);
   });
+
+  test('get the titles test 2', () => {
+    expect(getTheTitles(books)).toEqual(['Book', 'Book2']);
+  });
 });
